@@ -73,15 +73,15 @@
 				59038A9B1ED0969D00625BDE /* ViewController.m */,
 				59038AAB1ED09B0C00625BDE /* LegacyCallHandler.h */,
 				59038AAC1ED09B0C00625BDE /* LegacyCallHandler.m */,
+				59038AAF1ED09F5B00625BDE /* NewCallHandler.swift */,
+				59CCE97B1ED0A59C00518DF9 /* Utils.h */,
+				59CCE97C1ED0A59C00518DF9 /* Utils.m */,
+				59038AAE1ED09F5B00625BDE /* LegacyProject-Bridging-Header.h */,
 				59038A9D1ED0969D00625BDE /* Main.storyboard */,
 				59038AA01ED0969D00625BDE /* Assets.xcassets */,
 				59038AA21ED0969D00625BDE /* LaunchScreen.storyboard */,
 				59038AA51ED0969D00625BDE /* Info.plist */,
 				59038A941ED0969D00625BDE /* Supporting Files */,
-				59038AAF1ED09F5B00625BDE /* NewCallHandler.swift */,
-				59038AAE1ED09F5B00625BDE /* LegacyProject-Bridging-Header.h */,
-				59CCE97B1ED0A59C00518DF9 /* Utils.h */,
-				59CCE97C1ED0A59C00518DF9 /* Utils.m */,
 			);
 			path = LegacyProject;
 			sourceTree = "<group>";
