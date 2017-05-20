@@ -13,6 +13,7 @@
 		59038A9F1ED0969D00625BDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59038A9D1ED0969D00625BDE /* Main.storyboard */; };
 		59038AA11ED0969D00625BDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59038AA01ED0969D00625BDE /* Assets.xcassets */; };
 		59038AA41ED0969D00625BDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59038AA21ED0969D00625BDE /* LaunchScreen.storyboard */; };
+		59038AAD1ED09B0C00625BDE /* LegacyCallHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 59038AAC1ED09B0C00625BDE /* LegacyCallHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		59038AA01ED0969D00625BDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59038AA31ED0969D00625BDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		59038AA51ED0969D00625BDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59038AAB1ED09B0C00625BDE /* LegacyCallHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LegacyCallHandler.h; sourceTree = "<group>"; };
+		59038AAC1ED09B0C00625BDE /* LegacyCallHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LegacyCallHandler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				59038A981ED0969D00625BDE /* AppDelegate.m */,
 				59038A9A1ED0969D00625BDE /* ViewController.h */,
 				59038A9B1ED0969D00625BDE /* ViewController.m */,
+				59038AAB1ED09B0C00625BDE /* LegacyCallHandler.h */,
+				59038AAC1ED09B0C00625BDE /* LegacyCallHandler.m */,
 				59038A9D1ED0969D00625BDE /* Main.storyboard */,
 				59038AA01ED0969D00625BDE /* Assets.xcassets */,
 				59038AA21ED0969D00625BDE /* LaunchScreen.storyboard */,
@@ -153,6 +158,7 @@
 			files = (
 				59038A9C1ED0969D00625BDE /* ViewController.m in Sources */,
 				59038A991ED0969D00625BDE /* AppDelegate.m in Sources */,
+				59038AAD1ED09B0C00625BDE /* LegacyCallHandler.m in Sources */,
 				59038A961ED0969D00625BDE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
