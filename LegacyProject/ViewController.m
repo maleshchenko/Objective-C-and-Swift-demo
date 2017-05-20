@@ -31,7 +31,10 @@
 }
 
 - (IBAction)callSwiftCode {
-    self.swiftResultLabel.text = [[[NewCallHandler alloc] init] textForNewCall];
+    NewCallHandler *newHandler = [[NewCallHandler alloc] init];
+    self.swiftResultLabel.text = [newHandler textForNewCall];
+    
+    //[newHandler unavailableSwiftFunction]; //Won't work unless declared with '@objc' in its swift file
 }
 
 @end
