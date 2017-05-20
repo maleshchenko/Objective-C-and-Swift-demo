@@ -7,23 +7,30 @@
 //
 
 #import "ViewController.h"
+#import "LegacyCallHandler.h"
 
 @interface ViewController ()
+
+@property (strong) IBOutlet UIButton *callObjectiveCCodeButton;
+@property (strong) IBOutlet UIButton *callSwiftCCodeButton;
+@property (strong) IBOutlet UILabel *objectiveCResultLabel;
+@property (strong) IBOutlet UILabel *swiftResultLabel;
 
 @end
 
 @implementation ViewController
 
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)callObjectiveCCode {
+    self.objectiveCResultLabel.text = [[[LegacyCallHandler alloc] init] textForLegacyCall];
 }
 
+- (IBAction)callSwiftCode {
+    
+}
 
 @end
