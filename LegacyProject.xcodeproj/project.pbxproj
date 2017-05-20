@@ -15,6 +15,7 @@
 		59038AA41ED0969D00625BDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59038AA21ED0969D00625BDE /* LaunchScreen.storyboard */; };
 		59038AAD1ED09B0C00625BDE /* LegacyCallHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 59038AAC1ED09B0C00625BDE /* LegacyCallHandler.m */; };
 		59038AB01ED09F5B00625BDE /* NewCallHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59038AAF1ED09F5B00625BDE /* NewCallHandler.swift */; };
+		59CCE97D1ED0A59C00518DF9 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CCE97C1ED0A59C00518DF9 /* Utils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		59038AAC1ED09B0C00625BDE /* LegacyCallHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LegacyCallHandler.m; sourceTree = "<group>"; };
 		59038AAE1ED09F5B00625BDE /* LegacyProject-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LegacyProject-Bridging-Header.h"; sourceTree = "<group>"; };
 		59038AAF1ED09F5B00625BDE /* NewCallHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewCallHandler.swift; sourceTree = "<group>"; };
+		59CCE97B1ED0A59C00518DF9 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		59CCE97C1ED0A59C00518DF9 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,8 @@
 				59038A941ED0969D00625BDE /* Supporting Files */,
 				59038AAF1ED09F5B00625BDE /* NewCallHandler.swift */,
 				59038AAE1ED09F5B00625BDE /* LegacyProject-Bridging-Header.h */,
+				59CCE97B1ED0A59C00518DF9 /* Utils.h */,
+				59CCE97C1ED0A59C00518DF9 /* Utils.m */,
 			);
 			path = LegacyProject;
 			sourceTree = "<group>";
@@ -165,6 +170,7 @@
 				59038A9C1ED0969D00625BDE /* ViewController.m in Sources */,
 				59038AB01ED09F5B00625BDE /* NewCallHandler.swift in Sources */,
 				59038A991ED0969D00625BDE /* AppDelegate.m in Sources */,
+				59CCE97D1ED0A59C00518DF9 /* Utils.m in Sources */,
 				59038AAD1ED09B0C00625BDE /* LegacyCallHandler.m in Sources */,
 				59038A961ED0969D00625BDE /* main.m in Sources */,
 			);
