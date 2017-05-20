@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "LegacyCallHandler.h"
+#import "LegacyProject-Swift.h"
 
 @interface ViewController ()
 
@@ -30,7 +31,7 @@
 }
 
 - (IBAction)callSwiftCode {
-    
+    self.swiftResultLabel.text = [[[NewCallHandler alloc] init] textForNewCall];
 }
 
 @end
