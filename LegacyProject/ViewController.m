@@ -36,7 +36,7 @@
     NewCallHandler *newHandler = [[NewCallHandler alloc] init];
     self.swiftResultLabel.text = [newHandler textForNewCall];
     
-    //[newHandler anotherSwiftFunc]; //not working in curernt code, declared as 'private'
+    //[newHandler anotherSwiftFunc]; //not working in current code, declared as 'private'
 }
 
 @end
