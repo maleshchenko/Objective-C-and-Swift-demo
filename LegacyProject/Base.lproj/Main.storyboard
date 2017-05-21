@@ -62,7 +62,7 @@
                     </view>
                     <connections>
                         <outlet property="callObjectiveCCodeButton" destination="iMa-6a-k6d" id="eVZ-jF-M8C"/>
-                        <outlet property="callSwiftCCodeButton" destination="aTb-Nh-dt8" id="ZI7-Wk-dac"/>
+                        <outlet property="callSwiftCodeButton" destination="aTb-Nh-dt8" id="O1Y-ph-TEi"/>
                         <outlet property="objectiveCResultLabel" destination="k9q-o6-Fs6" id="gwU-SB-Y1s"/>
                         <outlet property="swiftResultLabel" destination="q3V-BO-Nfz" id="JTa-d2-1tu"/>
                     </connections>

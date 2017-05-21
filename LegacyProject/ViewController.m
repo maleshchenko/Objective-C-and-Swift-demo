@@ -13,7 +13,7 @@
 @interface ViewController ()
 
 @property (strong) IBOutlet UIButton *callObjectiveCCodeButton;
-@property (strong) IBOutlet UIButton *callSwiftCCodeButton;
+@property (strong) IBOutlet UIButton *callSwiftCodeButton;
 @property (strong) IBOutlet UILabel *objectiveCResultLabel;
 @property (strong) IBOutlet UILabel *swiftResultLabel;
 
