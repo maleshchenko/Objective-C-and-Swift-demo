@@ -27,7 +27,9 @@
 }
 
 - (IBAction)callObjectiveCCode {
-    self.objectiveCResultLabel.text = [[[LegacyCallHandler alloc] init] textForLegacyCall];
+    //in previous implementation, we were calling textForLegacyCall method from LegacyCallHandler Objective-C class,
+    //now we're calling a method from its Swift extension
+    self.objectiveCResultLabel.text = [[[LegacyCallHandler alloc] init] newTextForLegacyCall];
 }
 
 - (IBAction)callSwiftCode {
