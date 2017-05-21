@@ -10,7 +10,7 @@ import UIKit
 
 class NewCallHandler: NSObject {
 
-    open func textForNewCall() -> String? {
+    func textForNewCall() -> String? {
         if (Utils.isCallingNewCodeAllowed()) {
             return "Text from Swift class"
         }
