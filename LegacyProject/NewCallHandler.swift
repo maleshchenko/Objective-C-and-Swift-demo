@@ -19,6 +19,6 @@ class NewCallHandler: NSObject {
     }
     
     @nonobjc /*private*/ func anotherSwiftFunc() {
-        print("If you see this, 'private' specifier has been removed")
+        print("If you see this, 'private' and/or '@nonobjc' specifiers have been removed")
     }
 }
