@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14269.14" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14252.5"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -13,10 +14,6 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -51,14 +48,15 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="k9q-o6-Fs6" firstAttribute="top" secondItem="iMa-6a-k6d" secondAttribute="bottom" constant="16" id="33C-B6-faC"/>
-                            <constraint firstItem="iMa-6a-k6d" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BBi-9U-PeG"/>
-                            <constraint firstItem="q3V-BO-Nfz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Bct-BM-1Vt"/>
-                            <constraint firstItem="iMa-6a-k6d" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="100" id="JiP-KB-NIT"/>
-                            <constraint firstItem="k9q-o6-Fs6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ogj-o3-Kgn"/>
-                            <constraint firstItem="aTb-Nh-dt8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="a2o-HH-hMM"/>
+                            <constraint firstItem="iMa-6a-k6d" firstAttribute="centerX" secondItem="U8v-Rp-of7" secondAttribute="centerX" id="BBi-9U-PeG"/>
+                            <constraint firstItem="q3V-BO-Nfz" firstAttribute="centerX" secondItem="U8v-Rp-of7" secondAttribute="centerX" id="Bct-BM-1Vt"/>
+                            <constraint firstItem="iMa-6a-k6d" firstAttribute="top" secondItem="U8v-Rp-of7" secondAttribute="top" constant="100" id="JiP-KB-NIT"/>
+                            <constraint firstItem="k9q-o6-Fs6" firstAttribute="centerX" secondItem="U8v-Rp-of7" secondAttribute="centerX" id="Ogj-o3-Kgn"/>
+                            <constraint firstItem="aTb-Nh-dt8" firstAttribute="centerX" secondItem="U8v-Rp-of7" secondAttribute="centerX" id="a2o-HH-hMM"/>
                             <constraint firstItem="q3V-BO-Nfz" firstAttribute="top" secondItem="aTb-Nh-dt8" secondAttribute="bottom" constant="16" id="ccF-b1-wan"/>
                             <constraint firstItem="aTb-Nh-dt8" firstAttribute="top" secondItem="iMa-6a-k6d" secondAttribute="bottom" constant="160" id="gaJ-o4-0vT"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="U8v-Rp-of7"/>
                     </view>
                     <connections>
                         <outlet property="callObjectiveCCodeButton" destination="iMa-6a-k6d" id="eVZ-jF-M8C"/>
