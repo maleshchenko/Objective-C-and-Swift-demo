@@ -8,7 +8,7 @@
 
 import UIKit
 
-class NewCallHandler: NSObject {
+@objcMembers class NewCallHandler: NSObject {
 
     func textForNewCall() -> String? {
         if (Utils.isCallingNewCodeAllowed()) {
@@ -19,6 +19,7 @@ class NewCallHandler: NSObject {
     }
     
     @nonobjc /*private*/ func anotherSwiftFunc() {
+        //here `@nonobjc` overrides `@objcMembers`
         print("If you see this, 'private' and/or '@nonobjc' specifiers have been removed")
     }
 }

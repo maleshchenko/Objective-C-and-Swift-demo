@@ -10,7 +10,7 @@ import UIKit
 
 extension LegacyCallHandler {
 
-    func newTextForLegacyCall() -> String? {
+    @objc func newTextForLegacyCall() -> String? {
         if (Utils.isCallingNewCodeAllowed()) {
             return "Text from Swift extension"
         }
