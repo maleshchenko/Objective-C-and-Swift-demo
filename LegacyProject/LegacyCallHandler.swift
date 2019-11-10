@@ -1,5 +1,3 @@
-import UIKit
-
 extension LegacyCallHandler {
 
     @objc func newTextForLegacyCall() -> String? {

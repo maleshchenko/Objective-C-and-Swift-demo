@@ -1,5 +1,3 @@
-import UIKit
-
 @objcMembers class NewCallHandler: NSObject {
 
     func textForNewCall() -> String? {
